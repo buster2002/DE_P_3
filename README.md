@@ -33,7 +33,7 @@ The log files in the dataset you'll be working with are partitioned by year and 
           - log_data/2018/11/2018-11-13-events.json
 
 ## Schema for Song Play Analysis
-Using the song and event datasets, you'll need to create a star schema optimized for queries on song play analysis. This includes the following tables.
+Using the song and event datasets, you'll need to create a star schema optimized for queries on song play analysis. This includes the following tables.      
 
 ![Image of Tables](Tables_cluster.PNG)
 
@@ -49,14 +49,14 @@ Using the song and event datasets, you'll need to create a star schema optimized
 3. **artists** - artists in music database
    - artist_id, name, location, lattitude, longitude
 4. **time** - timestamps of records in songplays broken down into specific units
-   - start_time, hour, day, week, month, year, weekday
+   - start_time, hour, day, week, month, year, weekday       
 
 ![Image of Records](Records.PNG)
 
 ## Build ETL Pipeline
 1. Loading data from S3 to staging tables on Redshift.
 2. Loading data from staging tables to analytics tables on Redshift.
-3. Running the analytic queries on Redshift database.
+3. Running the analytic queries on Redshift database.        
 
 ![Image of Records](SE_editor.PNG)
 
